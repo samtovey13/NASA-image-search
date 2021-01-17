@@ -10,9 +10,10 @@ describe ("Search", () => {
   });
 
   it ("renders the correct components", () => {
-    const { getByTestId, getByPlaceholderText } = render(<Search />);
+    const { getByTestId, getByPlaceholderText, getByText } = render(<Search />);
 
     expect(getByTestId("search-input")).toHaveClass("search-input");
     expect(getByPlaceholderText("Search")).toBeInTheDocument();
+    expect(getByText("GO")).toHaveClass("search-button");
   });
 });
