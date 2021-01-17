@@ -10,8 +10,7 @@ function App() {
         alt="NASA logo"
         src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg" 
         data-testid="NASA-logo"
-      >
-      </img>
+      />
       <Search />
     </div>
   );

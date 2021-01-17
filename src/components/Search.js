@@ -8,8 +8,7 @@ const Search = () => {
       type="text"
       placeholder="Search"
       data-testid="search-input"
-    >
-    </input>
+    />
   </>
 }
 
