@@ -1,7 +1,8 @@
 .search-form {
   display: flex;
-  flex-direction: row;
+  flex-flow: row nowrap;
   align-items: stretch;
+  max-width: 100%;
 }
 
 .search-input, .search-button {
@@ -11,4 +12,8 @@
   padding: 0 10px;
   margin: 5px;
   box-sizing: border-box;
+}
+
+.search-input {
+  max-width: 200px;
 }

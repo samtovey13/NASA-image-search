@@ -7,14 +7,16 @@ const SearchResults = ({searchResults}) => {
     <div className="search-results-images" data-testid="search-results-images">
       {
         searchResults.map((image, index) => (
-          <img 
+          <span className="image-wrapper"><img
+            className="results-image"
             src={image} 
             alt="NASA" 
             key={`result-${index}`}
             data-testid={`image-result-${index}`}
-          />
+          /></span>
         ))
       }
+      <span className="last-child"></span>
     </div>
   </>
 }

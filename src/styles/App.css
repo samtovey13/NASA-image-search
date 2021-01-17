@@ -7,7 +7,7 @@
 }
 
 .logo {
-  margin: auto;
-  height: 265px;
+  margin: 10px;
   width: 472px;
+  max-width: 100%;
 }

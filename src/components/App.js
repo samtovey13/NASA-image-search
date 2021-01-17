@@ -14,10 +14,12 @@ function App() {
         src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg" 
         data-testid="NASA-logo"
       />
-      
+
       <Search setSearchResults={setSearchResults} />
 
-      <SearchResults searchResults={searchResults}/>
+      {
+        searchResults[0] && <SearchResults searchResults={searchResults}/>
+      }
     </div>
   );
 }
