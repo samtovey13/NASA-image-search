@@ -1,0 +1,12 @@
+.App {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 265px;
+  width: 472px;
+}
