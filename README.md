@@ -32,7 +32,9 @@ Axios, PropTypes
 
 # Run the App
 
-To run the app locally on your machine, clone the repo and use the following from the command line inside the project directory:
+The app is deployed live on GitHub Pages at https://samtovey13.github.io/tech-test/.\
+\
+Alternatively, to run the app locally on your machine, clone the repo and use the following from the command line inside the project directory:
 
 ### `npm start`
 
