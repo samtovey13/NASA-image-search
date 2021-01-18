@@ -1,31 +1,34 @@
-# React App: Tech Test
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). \
-\
-This is an exercise to prepare for a tech test when applying for a junior developer role.
+# Tech Test: NASA Image Search App
 
 ## The Brief
 
-You are expected to build a React web application that allows users to search for images based on a query relating to space. You are provided the NASA API endpoint for image search.\
+Build a React web application that allows users to search for images based on a query relating to space. You are provided the NASA API endpoint for image search.\
 \
-We want you to consider and add anything to your repository that should be included was this to be a live website.
-
 The following functionalities need to be implemented:
 * A Search page which allows users to search for images by keyword
 * Images must be returned upon a successful search
 
-The styling is up to you but will be taken into consideration when evaluating your application.\
-\
-We estimate this task to take ​​10 hours​​. Once you have completed the task upload the repository to GitHub and send the link to xxxxx@xxx.com. ​Deadline: 5 days from receiving.
+### Browser view:
+![browser screenshot](screenshot_browser.png)
 
-### **Relevant API endpoints:**
+### Mobile view:
+![mobile screenshot](screenshot_mobile.png)
 
-image search: \
-GET​​ ​​[https://images-api.nasa.gov/search](https://images-api.nasa.gov/search) ​Params: ​​q
+## API endpoint:
 
-### **Assets:**
+GET​​ ​​[https://images-api.nasa.gov/search?q=query](https://images-api.nasa.gov/search?q=query)
 
-You may use this asset for your application: https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg
+## Build
+
+This app was built with React using [`create-react-app`](https://github.com/facebook/create-react-app).
+
+## Testing Utilities
+
+Jest, React Testing Library
+
+## Packages
+
+Axios, PropTypes
 
 # Run the App
 
@@ -41,3 +44,17 @@ The page will reload if you make edits and you will also see any lint errors in 
 
 Launches the test runner in the interactive watch mode.
 See [docs](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+# Additional Notes
+
+## Areas for development
+
+If I had more time I would add a checkbox for 'images' and 'videos' below the search input, and filter the API results based on content type.\
+\
+I would improve the search input component with autocomplete suggestions of space-themed words.\
+\
+I would improve the formatting of the image gallery so that it responds more effectively to the mixed dimensions of the returned images.
+
+## Author
+Samantha Tovey 
+https://twitter.com/SamTovey13
