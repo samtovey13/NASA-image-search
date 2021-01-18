@@ -12,6 +12,12 @@ const getImages = (query) => {
           const filteredImages = imageResults.filter(image => image.data[0].media_type === "image");
           const images = filteredImages.map(image => image.links[0].href);
           return images;
+        } else if (response.status === 404) {
+          return [404];
+        } else if (response.status === 500) {
+          return [500];
+        } else if (response.status === 400) {
+          return [400];
         }
       })
       .catch((err) => {

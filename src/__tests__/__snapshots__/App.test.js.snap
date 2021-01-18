@@ -13,6 +13,7 @@ exports[`App renders correctly 1`] = `
     />
     <form
       class="search-form"
+      data-testid="search-form"
     >
       <input
         class="search-input"
@@ -22,20 +23,17 @@ exports[`App renders correctly 1`] = `
       />
       <button
         class="search-button"
+        data-testid="search-button"
         type="submit"
       >
         GO
       </button>
     </form>
     <p
-      class="search-results-header"
+      class="error-message"
     >
-      Search Results
+      No results
     </p>
-    <div
-      class="search-results-images"
-      data-testid="search-results-images"
-    />
   </div>
 </DocumentFragment>
 `;

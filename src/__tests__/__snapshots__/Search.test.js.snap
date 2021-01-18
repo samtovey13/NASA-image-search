@@ -4,6 +4,7 @@ exports[`Search renders correctly 1`] = `
 <DocumentFragment>
   <form
     class="search-form"
+    data-testid="search-form"
   >
     <input
       class="search-input"
@@ -13,6 +14,7 @@ exports[`Search renders correctly 1`] = `
     />
     <button
       class="search-button"
+      data-testid="search-button"
       type="submit"
     >
       GO

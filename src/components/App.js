@@ -2,9 +2,16 @@ import React, { useState } from 'react';
 import '../styles/App.css';
 import Search from './Search';
 import SearchResults from './SearchResults';
+import getImages from '../requests/getImages';
 
 function App() {
-  const [searchResults, setSearchResults] = useState([]);
+  const [results, setResults] = useState([]);
+  const [value, setValue] = useState("");
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    setResults(await getImages(value));
+  }
 
   return (
     <div className="App">
@@ -15,11 +22,9 @@ function App() {
         data-testid="NASA-logo"
       />
 
-      <Search setSearchResults={setSearchResults} />
+      <Search setValue={setValue} handleSubmit={handleSubmit} />
 
-      {
-        searchResults[0] && <SearchResults searchResults={searchResults}/>
-      }
+      <SearchResults results={results} />
     </div>
   );
 }

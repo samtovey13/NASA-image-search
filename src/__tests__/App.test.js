@@ -14,5 +14,6 @@ describe ("App", () => {
 
     expect(getByTestId("NASA-logo")).toHaveClass("logo");
     expect(getByTestId("search-input")).toBeInTheDocument();
+    expect(getByTestId("search-form")).toBeInTheDocument();
   });
 });

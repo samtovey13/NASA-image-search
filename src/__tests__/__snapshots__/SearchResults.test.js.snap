@@ -11,20 +11,38 @@ exports[`SearchResults renders correctly 1`] = `
     class="search-results-images"
     data-testid="search-results-images"
   >
-    <img
-      alt="NASA"
-      data-testid="image-result-0"
-      src="image1.jpg"
-    />
-    <img
-      alt="NASA"
-      data-testid="image-result-1"
-      src="image2.jpg"
-    />
-    <img
-      alt="NASA"
-      data-testid="image-result-2"
-      src="image3.jpg"
+    <span
+      class="image-wrapper"
+    >
+      <img
+        alt="NASA"
+        class="results-image"
+        data-testid="image-result-0"
+        src="image1.jpg"
+      />
+    </span>
+    <span
+      class="image-wrapper"
+    >
+      <img
+        alt="NASA"
+        class="results-image"
+        data-testid="image-result-1"
+        src="image2.jpg"
+      />
+    </span>
+    <span
+      class="image-wrapper"
+    >
+      <img
+        alt="NASA"
+        class="results-image"
+        data-testid="image-result-2"
+        src="image3.jpg"
+      />
+    </span>
+    <span
+      class="last-child"
     />
   </div>
 </DocumentFragment>
