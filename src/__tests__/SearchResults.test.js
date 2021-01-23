@@ -8,8 +8,14 @@ const mockSearchResults = [
   "image3.jpg"
 ];
 
-describe ("SearchResults", () => {
-  it ("renders correctly", () => {
+describe("SearchResults", () => {
+  it ("renders correctly with no results", () => {
+    const { asFragment } = render( <SearchResults results={[]}/>);
+
+    expect(asFragment()).toMatchSnapshot();
+  });
+
+  it ("renders correctly with results", () => {
     const { asFragment } = render( <SearchResults results={mockSearchResults}/>);
 
     expect(asFragment()).toMatchSnapshot();

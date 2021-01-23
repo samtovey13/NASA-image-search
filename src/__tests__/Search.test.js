@@ -7,7 +7,7 @@ describe ("Search", () => {
   const mockHandleSubmit = jest.fn();
 
   it ("renders correctly", () => {
-    const { asFragment } = render( <Search />);
+    const { asFragment } = render( <Search setValue={mockSetValue} handleSubmit={mockHandleSubmit} />);
 
     expect(asFragment()).toMatchSnapshot();
   });

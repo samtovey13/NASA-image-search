@@ -1,6 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`SearchResults renders correctly 1`] = `
+exports[`SearchResults renders correctly with no results 1`] = `
+<DocumentFragment>
+  <p
+    class="error-message"
+  >
+    No results
+  </p>
+</DocumentFragment>
+`;
+
+exports[`SearchResults renders correctly with results 1`] = `
 <DocumentFragment>
   <p
     class="search-results-header"
