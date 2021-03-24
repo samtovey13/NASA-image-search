@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/tech-test/static/css/main.850a9300.chunk.css",
-    "main.js": "/tech-test/static/js/main.440e306f.chunk.js",
-    "main.js.map": "/tech-test/static/js/main.440e306f.chunk.js.map",
-    "runtime-main.js": "/tech-test/static/js/runtime-main.565ff025.js",
-    "runtime-main.js.map": "/tech-test/static/js/runtime-main.565ff025.js.map",
-    "static/js/2.2f2bf4ea.chunk.js": "/tech-test/static/js/2.2f2bf4ea.chunk.js",
-    "static/js/2.2f2bf4ea.chunk.js.map": "/tech-test/static/js/2.2f2bf4ea.chunk.js.map",
-    "static/js/3.0b110c58.chunk.js": "/tech-test/static/js/3.0b110c58.chunk.js",
-    "static/js/3.0b110c58.chunk.js.map": "/tech-test/static/js/3.0b110c58.chunk.js.map",
-    "index.html": "/tech-test/index.html",
-    "static/css/main.850a9300.chunk.css.map": "/tech-test/static/css/main.850a9300.chunk.css.map",
-    "static/js/2.2f2bf4ea.chunk.js.LICENSE.txt": "/tech-test/static/js/2.2f2bf4ea.chunk.js.LICENSE.txt"
+    "main.css": "/NASA-image-search/static/css/main.850a9300.chunk.css",
+    "main.js": "/NASA-image-search/static/js/main.440e306f.chunk.js",
+    "main.js.map": "/NASA-image-search/static/js/main.440e306f.chunk.js.map",
+    "runtime-main.js": "/NASA-image-search/static/js/runtime-main.35d7e0b1.js",
+    "runtime-main.js.map": "/NASA-image-search/static/js/runtime-main.35d7e0b1.js.map",
+    "static/js/2.2f2bf4ea.chunk.js": "/NASA-image-search/static/js/2.2f2bf4ea.chunk.js",
+    "static/js/2.2f2bf4ea.chunk.js.map": "/NASA-image-search/static/js/2.2f2bf4ea.chunk.js.map",
+    "static/js/3.0b110c58.chunk.js": "/NASA-image-search/static/js/3.0b110c58.chunk.js",
+    "static/js/3.0b110c58.chunk.js.map": "/NASA-image-search/static/js/3.0b110c58.chunk.js.map",
+    "index.html": "/NASA-image-search/index.html",
+    "static/css/main.850a9300.chunk.css.map": "/NASA-image-search/static/css/main.850a9300.chunk.css.map",
+    "static/js/2.2f2bf4ea.chunk.js.LICENSE.txt": "/NASA-image-search/static/js/2.2f2bf4ea.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.565ff025.js",
+    "static/js/runtime-main.35d7e0b1.js",
     "static/js/2.2f2bf4ea.chunk.js",
     "static/css/main.850a9300.chunk.css",
     "static/js/main.440e306f.chunk.js"
