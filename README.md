@@ -32,7 +32,7 @@ Axios, PropTypes
 
 # Run the App
 
-The app is deployed live on GitHub Pages at https://samtovey13.github.io/tech-test/.\
+The app is deployed live on GitHub Pages at https://samtovey13.github.io/NASA-image-search/.\
 \
 Alternatively, to run the app locally on your machine, clone the repo and use the following from the command line inside the project directory:
 
